@@ -1,0 +1,10 @@
+/home/tnk-rin/Documents/Programming/project_euler/euler_13_06-03-2022/target/debug/deps/iovec-e327c31f1c96e167.rmeta: /home/tnk-rin/.cargo/registry/src/github.com-1ecc6299db9ec823/iovec-0.1.4/src/lib.rs /home/tnk-rin/.cargo/registry/src/github.com-1ecc6299db9ec823/iovec-0.1.4/src/sys/mod.rs /home/tnk-rin/.cargo/registry/src/github.com-1ecc6299db9ec823/iovec-0.1.4/src/sys/unix.rs /home/tnk-rin/.cargo/registry/src/github.com-1ecc6299db9ec823/iovec-0.1.4/src/unix.rs
+
+/home/tnk-rin/Documents/Programming/project_euler/euler_13_06-03-2022/target/debug/deps/libiovec-e327c31f1c96e167.rlib: /home/tnk-rin/.cargo/registry/src/github.com-1ecc6299db9ec823/iovec-0.1.4/src/lib.rs /home/tnk-rin/.cargo/registry/src/github.com-1ecc6299db9ec823/iovec-0.1.4/src/sys/mod.rs /home/tnk-rin/.cargo/registry/src/github.com-1ecc6299db9ec823/iovec-0.1.4/src/sys/unix.rs /home/tnk-rin/.cargo/registry/src/github.com-1ecc6299db9ec823/iovec-0.1.4/src/unix.rs
+
+/home/tnk-rin/Documents/Programming/project_euler/euler_13_06-03-2022/target/debug/deps/iovec-e327c31f1c96e167.d: /home/tnk-rin/.cargo/registry/src/github.com-1ecc6299db9ec823/iovec-0.1.4/src/lib.rs /home/tnk-rin/.cargo/registry/src/github.com-1ecc6299db9ec823/iovec-0.1.4/src/sys/mod.rs /home/tnk-rin/.cargo/registry/src/github.com-1ecc6299db9ec823/iovec-0.1.4/src/sys/unix.rs /home/tnk-rin/.cargo/registry/src/github.com-1ecc6299db9ec823/iovec-0.1.4/src/unix.rs
+
+/home/tnk-rin/.cargo/registry/src/github.com-1ecc6299db9ec823/iovec-0.1.4/src/lib.rs:
+/home/tnk-rin/.cargo/registry/src/github.com-1ecc6299db9ec823/iovec-0.1.4/src/sys/mod.rs:
+/home/tnk-rin/.cargo/registry/src/github.com-1ecc6299db9ec823/iovec-0.1.4/src/sys/unix.rs:
+/home/tnk-rin/.cargo/registry/src/github.com-1ecc6299db9ec823/iovec-0.1.4/src/unix.rs:

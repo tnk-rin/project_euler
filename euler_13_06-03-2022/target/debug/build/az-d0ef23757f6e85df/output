@@ -1,0 +1,6 @@
+$ mkdir -p "/home/tnk-rin/Documents/Programming/project_euler/euler_13_06-03-2022/target/debug/build/az-d0ef23757f6e85df/out/try_track_caller"
+$ cd "/home/tnk-rin/Documents/Programming/project_euler/euler_13_06-03-2022/target/debug/build/az-d0ef23757f6e85df/out/try_track_caller"
+$ printf '%s' "// try_tra"... > "/home/tnk-rin/Documents/Programming/project_euler/euler_13_06-03-2022/target/debug/build/az-d0ef23757f6e85df/out/try_track_caller/try_track_caller.rs"
+$ "rustc" "try_track_caller.rs" "--emit=dep-info,metadata" >& /dev/null
+cargo:rustc-cfg=track_caller
+$ rm -r "/home/tnk-rin/Documents/Programming/project_euler/euler_13_06-03-2022/target/debug/build/az-d0ef23757f6e85df/out/try_track_caller"
