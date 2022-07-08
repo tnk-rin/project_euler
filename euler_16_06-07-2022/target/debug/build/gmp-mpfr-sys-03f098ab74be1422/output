@@ -1,0 +1,30 @@
+cargo:rerun-if-env-changed=GMP_MPFR_SYS_CACHE
+$ mkdir -p "/home/tnk-rin/Documents/Programming/project_euler/euler_16_06-07-2022/target/debug/build/gmp-mpfr-sys-03f098ab74be1422/out/try_extended_key_value_attributes"
+$ cd "/home/tnk-rin/Documents/Programming/project_euler/euler_16_06-07-2022/target/debug/build/gmp-mpfr-sys-03f098ab74be1422/out/try_extended_key_value_attributes"
+$ printf '%s' "// try_ext"... > "/home/tnk-rin/Documents/Programming/project_euler/euler_16_06-07-2022/target/debug/build/gmp-mpfr-sys-03f098ab74be1422/out/try_extended_key_value_attributes/try_extended_key_value_attributes.rs"
+$ "rustc" "try_extended_key_value_attributes.rs" "--emit=dep-info,metadata" >& /dev/null
+cargo:rustc-cfg=extended_key_value_attributes
+$ rm -r "/home/tnk-rin/Documents/Programming/project_euler/euler_16_06-07-2022/target/debug/build/gmp-mpfr-sys-03f098ab74be1422/out/try_extended_key_value_attributes"
+$ mkdir -p "/home/tnk-rin/Documents/Programming/project_euler/euler_16_06-07-2022/target/debug/build/gmp-mpfr-sys-03f098ab74be1422/out/try_unsafe_in_unsafe"
+$ cd "/home/tnk-rin/Documents/Programming/project_euler/euler_16_06-07-2022/target/debug/build/gmp-mpfr-sys-03f098ab74be1422/out/try_unsafe_in_unsafe"
+$ printf '%s' "// try_uns"... > "/home/tnk-rin/Documents/Programming/project_euler/euler_16_06-07-2022/target/debug/build/gmp-mpfr-sys-03f098ab74be1422/out/try_unsafe_in_unsafe/try_unsafe_in_unsafe.rs"
+$ "rustc" "try_unsafe_in_unsafe.rs" "--emit=dep-info,metadata" >& /dev/null
+cargo:rustc-cfg=unsafe_in_unsafe
+$ rm -r "/home/tnk-rin/Documents/Programming/project_euler/euler_16_06-07-2022/target/debug/build/gmp-mpfr-sys-03f098ab74be1422/out/try_unsafe_in_unsafe"
+$ mkdir -p "/home/tnk-rin/Documents/Programming/project_euler/euler_16_06-07-2022/target/debug/build/gmp-mpfr-sys-03f098ab74be1422/out/lib"
+$ mkdir -p "/home/tnk-rin/Documents/Programming/project_euler/euler_16_06-07-2022/target/debug/build/gmp-mpfr-sys-03f098ab74be1422/out/include"
+$ cp "/home/tnk-rin/.cache/gmp-mpfr-sys/1.4/x86_64-unknown-linux-gnu/1.4.8/libmpc.a" "/home/tnk-rin/Documents/Programming/project_euler/euler_16_06-07-2022/target/debug/build/gmp-mpfr-sys-03f098ab74be1422/out/lib/libmpc.a"
+$ cp "/home/tnk-rin/.cache/gmp-mpfr-sys/1.4/x86_64-unknown-linux-gnu/1.4.8/mpc.h" "/home/tnk-rin/Documents/Programming/project_euler/euler_16_06-07-2022/target/debug/build/gmp-mpfr-sys-03f098ab74be1422/out/include/mpc.h"
+$ cp "/home/tnk-rin/.cache/gmp-mpfr-sys/1.4/x86_64-unknown-linux-gnu/1.4.8/libmpfr.a" "/home/tnk-rin/Documents/Programming/project_euler/euler_16_06-07-2022/target/debug/build/gmp-mpfr-sys-03f098ab74be1422/out/lib/libmpfr.a"
+$ cp "/home/tnk-rin/.cache/gmp-mpfr-sys/1.4/x86_64-unknown-linux-gnu/1.4.8/mpfr.h" "/home/tnk-rin/Documents/Programming/project_euler/euler_16_06-07-2022/target/debug/build/gmp-mpfr-sys-03f098ab74be1422/out/include/mpfr.h"
+$ cp "/home/tnk-rin/.cache/gmp-mpfr-sys/1.4/x86_64-unknown-linux-gnu/1.4.8/libgmp.a" "/home/tnk-rin/Documents/Programming/project_euler/euler_16_06-07-2022/target/debug/build/gmp-mpfr-sys-03f098ab74be1422/out/lib/libgmp.a"
+cargo:limb_bits=64
+$ cp "/home/tnk-rin/.cache/gmp-mpfr-sys/1.4/x86_64-unknown-linux-gnu/1.4.8/gmp.h" "/home/tnk-rin/Documents/Programming/project_euler/euler_16_06-07-2022/target/debug/build/gmp-mpfr-sys-03f098ab74be1422/out/include/gmp.h"
+cargo:limb_bits=64
+cargo:out_dir=/home/tnk-rin/Documents/Programming/project_euler/euler_16_06-07-2022/target/debug/build/gmp-mpfr-sys-03f098ab74be1422/out
+cargo:lib_dir=/home/tnk-rin/Documents/Programming/project_euler/euler_16_06-07-2022/target/debug/build/gmp-mpfr-sys-03f098ab74be1422/out/lib
+cargo:include_dir=/home/tnk-rin/Documents/Programming/project_euler/euler_16_06-07-2022/target/debug/build/gmp-mpfr-sys-03f098ab74be1422/out/include
+cargo:rustc-link-search=native=/home/tnk-rin/Documents/Programming/project_euler/euler_16_06-07-2022/target/debug/build/gmp-mpfr-sys-03f098ab74be1422/out/lib
+cargo:rustc-link-lib=static=mpc
+cargo:rustc-link-lib=static=mpfr
+cargo:rustc-link-lib=static=gmp

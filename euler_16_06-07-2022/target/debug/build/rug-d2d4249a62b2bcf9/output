@@ -1,0 +1,7 @@
+cargo:rustc-cfg=gmp_limb_bits_64
+$ mkdir -p "/home/tnk-rin/Documents/Programming/project_euler/euler_16_06-07-2022/target/debug/build/rug-d2d4249a62b2bcf9/out/try_unsafe_in_unsafe"
+$ cd "/home/tnk-rin/Documents/Programming/project_euler/euler_16_06-07-2022/target/debug/build/rug-d2d4249a62b2bcf9/out/try_unsafe_in_unsafe"
+$ printf '%s' "// try_uns"... > "/home/tnk-rin/Documents/Programming/project_euler/euler_16_06-07-2022/target/debug/build/rug-d2d4249a62b2bcf9/out/try_unsafe_in_unsafe/try_unsafe_in_unsafe.rs"
+$ "rustc" "try_unsafe_in_unsafe.rs" "--emit=dep-info,metadata" >& /dev/null
+cargo:rustc-cfg=unsafe_in_unsafe
+$ rm -r "/home/tnk-rin/Documents/Programming/project_euler/euler_16_06-07-2022/target/debug/build/rug-d2d4249a62b2bcf9/out/try_unsafe_in_unsafe"
