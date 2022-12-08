@@ -1,0 +1,1 @@
+{"rustc":6472880014988055702,"features":"[\"mpc\", \"mpfr\"]","target":13294766831966498538,"profile":12637318739757120569,"path":11979036294386886577,"deps":[],"local":[{"CheckDepInfo":{"dep_info":"debug/.fingerprint/gmp-mpfr-sys-26e11d573d24bebd/dep-build-script-build-script-build"}}],"rustflags":[],"metadata":6510345421591640641,"config":2202906307356721367,"compile_kind":0}

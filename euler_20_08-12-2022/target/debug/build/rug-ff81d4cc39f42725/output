@@ -1,0 +1,13 @@
+cargo:rustc-cfg=gmp_limb_bits_64
+$ mkdir -p "/home/tnk-rin/Documents/Programming/project_euler/euler_20_08-12-2022/target/debug/build/rug-ff81d4cc39f42725/out/try_unsafe_in_unsafe"
+$ cd "/home/tnk-rin/Documents/Programming/project_euler/euler_20_08-12-2022/target/debug/build/rug-ff81d4cc39f42725/out/try_unsafe_in_unsafe"
+$ printf '%s' "// try_uns"... > "/home/tnk-rin/Documents/Programming/project_euler/euler_20_08-12-2022/target/debug/build/rug-ff81d4cc39f42725/out/try_unsafe_in_unsafe/try_unsafe_in_unsafe.rs"
+$ "rustc" "try_unsafe_in_unsafe.rs" "--emit=dep-info,metadata" >& /dev/null
+cargo:rustc-cfg=unsafe_in_unsafe
+$ rm -r "/home/tnk-rin/Documents/Programming/project_euler/euler_20_08-12-2022/target/debug/build/rug-ff81d4cc39f42725/out/try_unsafe_in_unsafe"
+$ mkdir -p "/home/tnk-rin/Documents/Programming/project_euler/euler_20_08-12-2022/target/debug/build/rug-ff81d4cc39f42725/out/try_doc_alias"
+$ cd "/home/tnk-rin/Documents/Programming/project_euler/euler_20_08-12-2022/target/debug/build/rug-ff81d4cc39f42725/out/try_doc_alias"
+$ printf '%s' "// try_doc"... > "/home/tnk-rin/Documents/Programming/project_euler/euler_20_08-12-2022/target/debug/build/rug-ff81d4cc39f42725/out/try_doc_alias/try_doc_alias.rs"
+$ "rustc" "try_doc_alias.rs" "--emit=dep-info,metadata" >& /dev/null
+cargo:rustc-cfg=doc_alias
+$ rm -r "/home/tnk-rin/Documents/Programming/project_euler/euler_20_08-12-2022/target/debug/build/rug-ff81d4cc39f42725/out/try_doc_alias"
